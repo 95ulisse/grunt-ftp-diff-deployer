@@ -1,0 +1,38 @@
+{
+  "name": "grunt-ftp-diff-deployer",
+  "description": "Incrementally push differences to FTP server.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/95ulisse/grunt-ftp-diff-deployer",
+  "author": {
+    "name": "Marco Cameriero",
+    "email": "marco95ulisse@live.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/95ulisse/grunt-ftp-diff-deployer"
+  },
+  "bugs": {
+    "url": "https://github.com/95ulisse/grunt-ftp-diff-deployer/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/95ulisse/grunt-ftp-diff-deployer/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt": "~0.4.1"
+  },
+  "dependencies": {
+    "grunt": "~0.4.1",
+    "ftp-diff-deployer": "~0.1.0"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
