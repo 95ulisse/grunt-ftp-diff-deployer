@@ -127,13 +127,15 @@ grunt.initConfig({
   'ftp-diff-deployer': {
     options: {},
     www: {
-      host: 'ftp.example.com',
-      auth: {
-        username: 'foo',
-        password: 'bar'
-      },
-      src: 'www',
-      dest: '/'
+      options: {
+        host: 'ftp.example.com',
+        auth: {
+          username: 'foo',
+          password: 'bar'
+        },
+        src: 'www',
+        dest: '/'
+      }
     }
   }
 });
@@ -147,15 +149,17 @@ grunt.initConfig({
   'ftp-diff-deployer': {
     options: {},
     www: {
-      host: 'ftp.example.com',
-      auth: {
-        username: 'foo',
-        password: 'bar'
-      },
-      src: 'www',
-      dest: '/',
-      exclude: [ '[Tt]humbs.db' ],
-      reporter: 'null'
+      options: {
+        host: 'ftp.example.com',
+        auth: {
+          username: 'foo',
+          password: 'bar'
+        },
+        src: 'www',
+        dest: '/',
+        exclude: [ '[Tt]humbs.db' ],
+        reporter: 'null'
+      }
     }
   }
 });
@@ -169,9 +173,11 @@ grunt.initConfig({
   'ftp-diff-deployer': {
     options: {},
     www: {
-      host: 'ftp.example.com',
-      src: 'www',
-      dest: '/'
+      options: {
+        host: 'ftp.example.com',
+        src: 'www',
+        dest: '/'
+      }
     }
   }
 });
