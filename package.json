@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "grunt": "~0.4.1",
-    "ftp-diff-deployer": "~0.1.0"
+    "ftp-diff-deployer": "~0.2.0"
   },
   "keywords": [
     "gruntplugin"
